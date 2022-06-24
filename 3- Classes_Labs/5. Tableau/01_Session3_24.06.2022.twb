@@ -21,14 +21,14 @@
     </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
   </_.fcp.AnimationOnByDefault.false...style>
   <datasources>
-    <datasource caption='Orders (Sample - Superstore)' inline='true' name='federated.0inw5ag1grjox515jtjeg0v7j1g1' version='18.1'>
+    <datasource caption='Orders (Sample - Superstore)' inline='true' name='federated.1ig3ish1slgxpq1553lm31eit6bk' version='18.1'>
       <connection class='federated'>
         <named-connections>
-          <named-connection caption='Sample - Superstore' name='excel-direct.1g1thyz0tpqp4r1aoxp1y1scf65q'>
+          <named-connection caption='Sample - Superstore' name='excel-direct.0cx6ubt1idhlly1fnio1p186fyjp'>
             <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Birgül/Documents/GitHub/02_DATA_SCIENCE_DATA_ANALYTICS_MODULE/3- Classes_Labs/5. Tableau/Sample - Superstore.xls' interpretationMode='0' password='' server='' validate='no' />
           </named-connection>
         </named-connections>
-        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1g1thyz0tpqp4r1aoxp1y1scf65q' name='Orders' table='[Orders$]' type='table'>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0cx6ubt1idhlly1fnio1p186fyjp' name='Orders' table='[Orders$]' type='table'>
           <columns gridOrigin='A1:U9995:no:A1:U9995:0' header='yes' outcome='6'>
             <column datatype='integer' name='Row ID' ordinal='0' />
             <column datatype='string' name='Order ID' ordinal='1' />
@@ -53,7 +53,7 @@
             <column datatype='real' name='Profit' ordinal='20' />
           </columns>
         </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
-        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1g1thyz0tpqp4r1aoxp1y1scf65q' name='Orders' table='[Orders$]' type='table'>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0cx6ubt1idhlly1fnio1p186fyjp' name='Orders' table='[Orders$]' type='table'>
           <columns gridOrigin='A1:U9995:no:A1:U9995:0' header='yes' outcome='6'>
             <column datatype='integer' name='Row ID' ordinal='0' />
             <column datatype='string' name='Order ID' ordinal='1' />
@@ -106,7 +106,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_3FDA0E3CC9374629A9DB05E8DF26C8A0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_5675100B2B0647969C0471F7F092907B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Order ID</remote-name>
@@ -122,7 +122,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_3FDA0E3CC9374629A9DB05E8DF26C8A0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_5675100B2B0647969C0471F7F092907B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Order Date</remote-name>
@@ -137,7 +137,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_3FDA0E3CC9374629A9DB05E8DF26C8A0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_5675100B2B0647969C0471F7F092907B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Ship Date</remote-name>
@@ -152,7 +152,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_3FDA0E3CC9374629A9DB05E8DF26C8A0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_5675100B2B0647969C0471F7F092907B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Ship Mode</remote-name>
@@ -168,7 +168,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_3FDA0E3CC9374629A9DB05E8DF26C8A0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_5675100B2B0647969C0471F7F092907B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Customer ID</remote-name>
@@ -184,7 +184,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_3FDA0E3CC9374629A9DB05E8DF26C8A0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_5675100B2B0647969C0471F7F092907B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Customer Name</remote-name>
@@ -200,7 +200,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_3FDA0E3CC9374629A9DB05E8DF26C8A0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_5675100B2B0647969C0471F7F092907B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Segment</remote-name>
@@ -216,7 +216,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_3FDA0E3CC9374629A9DB05E8DF26C8A0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_5675100B2B0647969C0471F7F092907B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Country/Region</remote-name>
@@ -232,7 +232,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_3FDA0E3CC9374629A9DB05E8DF26C8A0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_5675100B2B0647969C0471F7F092907B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>City</remote-name>
@@ -248,7 +248,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_3FDA0E3CC9374629A9DB05E8DF26C8A0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_5675100B2B0647969C0471F7F092907B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>State</remote-name>
@@ -264,7 +264,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_3FDA0E3CC9374629A9DB05E8DF26C8A0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_5675100B2B0647969C0471F7F092907B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Postal Code</remote-name>
@@ -279,7 +279,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_3FDA0E3CC9374629A9DB05E8DF26C8A0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_5675100B2B0647969C0471F7F092907B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Region</remote-name>
@@ -295,7 +295,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_3FDA0E3CC9374629A9DB05E8DF26C8A0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_5675100B2B0647969C0471F7F092907B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Product ID</remote-name>
@@ -311,7 +311,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_3FDA0E3CC9374629A9DB05E8DF26C8A0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_5675100B2B0647969C0471F7F092907B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Category</remote-name>
@@ -327,7 +327,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_3FDA0E3CC9374629A9DB05E8DF26C8A0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_5675100B2B0647969C0471F7F092907B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Sub-Category</remote-name>
@@ -343,7 +343,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_3FDA0E3CC9374629A9DB05E8DF26C8A0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_5675100B2B0647969C0471F7F092907B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Product Name</remote-name>
@@ -359,7 +359,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_3FDA0E3CC9374629A9DB05E8DF26C8A0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_5675100B2B0647969C0471F7F092907B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Sales</remote-name>
@@ -375,7 +375,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_3FDA0E3CC9374629A9DB05E8DF26C8A0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_5675100B2B0647969C0471F7F092907B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Quantity</remote-name>
@@ -390,7 +390,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_3FDA0E3CC9374629A9DB05E8DF26C8A0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_5675100B2B0647969C0471F7F092907B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Discount</remote-name>
@@ -406,7 +406,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_3FDA0E3CC9374629A9DB05E8DF26C8A0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_5675100B2B0647969C0471F7F092907B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Profit</remote-name>
@@ -422,7 +422,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_3FDA0E3CC9374629A9DB05E8DF26C8A0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_5675100B2B0647969C0471F7F092907B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
         </metadata-records>
       </connection>
@@ -432,16 +432,16 @@
       <column aggregation='Sum' datatype='integer' default-format='*00000' name='[Postal Code]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
       <column datatype='integer' name='[Row ID]' role='dimension' type='ordinal' />
       <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
-      <_.fcp.ObjectModelTableType.true...column caption='Orders' datatype='table' name='[__tableau_internal_object_id__].[Orders_3FDA0E3CC9374629A9DB05E8DF26C8A0]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Orders' datatype='table' name='[__tableau_internal_object_id__].[Orders_5675100B2B0647969C0471F7F092907B]' role='measure' type='quantitative' />
       <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
       <semantic-values>
         <semantic-value key='[Country].[Name]' value='&quot;Germany&quot;' />
       </semantic-values>
       <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
         <objects>
-          <object caption='Orders' id='Orders_3FDA0E3CC9374629A9DB05E8DF26C8A0'>
+          <object caption='Orders' id='Orders_5675100B2B0647969C0471F7F092907B'>
             <properties context=''>
-              <relation connection='excel-direct.1g1thyz0tpqp4r1aoxp1y1scf65q' name='Orders' table='[Orders$]' type='table'>
+              <relation connection='excel-direct.0cx6ubt1idhlly1fnio1p186fyjp' name='Orders' table='[Orders$]' type='table'>
                 <columns gridOrigin='A1:U9995:no:A1:U9995:0' header='yes' outcome='6'>
                   <column datatype='integer' name='Row ID' ordinal='0' />
                   <column datatype='string' name='Order ID' ordinal='1' />
@@ -491,14 +491,14 @@
         <rows />
         <cols />
       </table>
-      <simple-id uuid='{4C20BD6E-A4B9-40B2-A4FB-7CBDF4E15C95}' />
+      <simple-id uuid='{6D6434C8-747E-46DF-8A03-A3D6B8B8C471}' />
     </worksheet>
   </worksheets>
-  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+  <windows saved-dpi-scale-factor='1.25' source-height='30'>
     <window class='worksheet' maximized='true' name='Sheet 1'>
       <cards>
         <edge name='left'>
-          <strip size='160'>
+          <strip size='128'>
             <card type='pages' />
             <card type='filters' />
             <card type='marks' />
@@ -511,12 +511,12 @@
           <strip size='2147483647'>
             <card type='rows' />
           </strip>
-          <strip size='2147483647'>
+          <strip size='24'>
             <card type='title' />
           </strip>
         </edge>
       </cards>
-      <simple-id uuid='{08BE1007-63FC-45D5-9578-9126275B172B}' />
+      <simple-id uuid='{1A6F38C1-C38B-478A-B6E1-40982348969D}' />
     </window>
   </windows>
   <thumbnails>
