@@ -261,6 +261,13 @@
   </datasources>
   <worksheets>
     <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#24292f' fontname='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji' fontsize='16'>1 - Go to Sheet 1 (your workspace) and find how many records the data set has</run>
+          </formatted-text>
+        </title>
+      </layout-options>
       <table>
         <view>
           <datasources />
@@ -281,6 +288,13 @@
       <simple-id uuid='{9CB88660-09CB-4382-AD53-B7BA97F088DE}' />
     </worksheet>
     <worksheet name='Sheet 10'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#24292f' fontname='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji' fontsize='16'>10 - What percentage of US sellers&apos; transactions were purchased by US buyers?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
       <table>
         <view>
           <datasources />
@@ -301,6 +315,13 @@
       <simple-id uuid='{9835F7E5-FED2-4504-B5CA-A5B6185CA003}' />
     </worksheet>
     <worksheet name='Sheet 11'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#24292f' fontname='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji' fontsize='16'>11 - Which country made the highest percentage of international purchases?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
       <table>
         <view>
           <datasources />
@@ -321,6 +342,13 @@
       <simple-id uuid='{2F5E449D-5076-4F31-AE66-FED252ACECDF}' />
     </worksheet>
     <worksheet name='Sheet 12'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#24292f' fontname='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji' fontsize='16'>12 - Which day has the highest value of purchases?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
       <table>
         <view>
           <datasources />
@@ -341,6 +369,13 @@
       <simple-id uuid='{585E0357-23C3-4601-BCAD-D89CF7294C55}' />
     </worksheet>
     <worksheet name='Sheet 13'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#24292f' fontname='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji' fontsize='16'>3 - Which category has 2,324 transactions on 7 August?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
       <table>
         <view>
           <datasources />
@@ -361,6 +396,13 @@
       <simple-id uuid='{87282FE5-657B-4DC6-BEA9-E6D70F63BBE6}' />
     </worksheet>
     <worksheet name='Sheet 14'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#24292f' fontname='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji' fontsize='16'>14 - What percentage of global sales value on 4 August came from US sellers?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
       <table>
         <view>
           <datasources />
@@ -381,6 +423,13 @@
       <simple-id uuid='{C2429045-E9C4-4BBB-8880-96E8DF513BFC}' />
     </worksheet>
     <worksheet name='Sheet 15'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#24292f' fontname='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji' fontsize='16'>15 - How many sellers in the US has more than 75 sales?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
       <table>
         <view>
           <datasources />
@@ -401,6 +450,13 @@
       <simple-id uuid='{03E067FE-D282-408A-B465-48728DE32FDE}' />
     </worksheet>
     <worksheet name='Sheet 16'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#24292f' fontname='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji' fontsize='16'>16 - Which seller in the US sold the most in terms of value?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
       <table>
         <view>
           <datasources />
@@ -421,6 +477,13 @@
       <simple-id uuid='{393061DA-92E4-48AC-A6B2-605010E570BF}' />
     </worksheet>
     <worksheet name='Sheet 17'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#24292f' fontname='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji' fontsize='16'>17 - Which brand had the largest absolute € difference in average transaction value between domestic and international?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
       <table>
         <view>
           <datasources />
@@ -441,6 +504,13 @@
       <simple-id uuid='{D9E0419D-C088-462F-B482-CFE44730801F}' />
     </worksheet>
     <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#24292f' fontname='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji' fontsize='16'>2 - Find the total number of sellers.</run>
+          </formatted-text>
+        </title>
+      </layout-options>
       <table>
         <view>
           <datasources />
@@ -461,6 +531,13 @@
       <simple-id uuid='{1C4C56EA-9DC4-4F5E-9B12-B4C98AE3E2AE}' />
     </worksheet>
     <worksheet name='Sheet 3'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#24292f' fontname='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji' fontsize='16'>3 - What is the total value of sales in EUR?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
       <table>
         <view>
           <datasources />
@@ -481,6 +558,17 @@
       <simple-id uuid='{BB56B4CF-9E5C-4178-B88D-5A820500795C}' />
     </worksheet>
     <worksheet name='Sheet 4'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#24292f' fontname='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji' fontsize='16'>4 - Which brand has the highest </run>
+            <run bold='true' fontcolor='#24292f' fontname='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji' fontsize='16' italic='true'>value</run>
+            <run fontcolor='#24292f' fontname='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji' fontsize='16'> of purchases during the period? Create a horizontal bar chart display. Observe that there are null values. Think about how to deal with the null values. Create a new field named Brand-Updated. Replace null values with </run>
+            <run bold='true' fontcolor='#24292f' fontname='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji' fontsize='16'>Unknown</run>
+            <run fontcolor='#24292f' fontname='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji' fontsize='16'>. Change the old Brand field with Brand-Updated.</run>
+          </formatted-text>
+        </title>
+      </layout-options>
       <table>
         <view>
           <datasources />
@@ -501,6 +589,13 @@
       <simple-id uuid='{CF23413F-4197-42CB-840E-129DC727CFF0}' />
     </worksheet>
     <worksheet name='Sheet 5'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#24292f' fontname='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji' fontsize='16'>5 - How many items in the “Jewellery” category have no brand associated with them?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
       <table>
         <view>
           <datasources />
@@ -521,6 +616,13 @@
       <simple-id uuid='{5B2B9CFA-800A-4BE8-94BC-EC29452BABF0}' />
     </worksheet>
     <worksheet name='Sheet 6'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#24292f' fontname='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji' fontsize='16'>6 - How many brands have between 35 and 55 transactions (inclusive)? (Suggested Chart Type: Horizontal Bar Chart)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
       <table>
         <view>
           <datasources />
@@ -541,6 +643,13 @@
       <simple-id uuid='{24B4BAFB-CF52-482B-AE77-B4FCA34D836D}' />
     </worksheet>
     <worksheet name='Sheet 7'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#24292f' fontname='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji' fontsize='16'>- How many pairs of shoes were purchased by Australian (AU) buyers?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
       <table>
         <view>
           <datasources />
@@ -561,6 +670,13 @@
       <simple-id uuid='{8C6EDF02-98AF-49AE-A147-6BC96252C879}' />
     </worksheet>
     <worksheet name='Sheet 8'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#24292f' fontname='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji' fontsize='16'>8 - Which brand has the highest average transaction value? Bring all values in Euros. (Suggested Chart Type: Horizontal Bar Chart)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
       <table>
         <view>
           <datasources />
@@ -581,6 +697,13 @@
       <simple-id uuid='{CFB01602-2EF3-4261-84BA-83DDCE2C698C}' />
     </worksheet>
     <worksheet name='Sheet 9'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#24292f' fontname='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji' fontsize='16'> - What is the total value of items purchased by GB buyers from GB sellers?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
       <table>
         <view>
           <datasources />
@@ -602,7 +725,7 @@
     </worksheet>
   </worksheets>
   <windows saved-dpi-scale-factor='1.25' source-height='37'>
-    <window class='worksheet' name='Sheet 1'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -970,7 +1093,7 @@
       </cards>
       <simple-id uuid='{8F48C864-9623-4399-A936-A2F5B17D4939}' />
     </window>
-    <window class='worksheet' maximized='true' name='Sheet 17'>
+    <window class='worksheet' name='Sheet 17'>
       <cards>
         <edge name='left'>
           <strip size='160'>
