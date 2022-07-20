@@ -6,7 +6,7 @@
 ----Subquery in SELECT Statement
 
 --Write a query that creates a new column named "total_price" calculating the total prices of the products on each order.
---order id' lere göre toplam list price larý hesaplayýn.
+--order id' lere gï¿½re toplam list price larï¿½ hesaplayï¿½n.
 
 
 
@@ -29,7 +29,7 @@ FROM	SALE.order_item A
 -----------
 
 
---Tüm sipariþlerin karþýsýna tablodaki tüm ürünlerin toplam deðerini döndürür.
+--Tï¿½m sipariï¿½lerin karï¿½ï¿½sï¿½na tablodaki tï¿½m ï¿½rï¿½nlerin toplam deï¿½erini dï¿½ndï¿½rï¿½r.
 
 SELECT DISTINCT order_id, 
 		(
@@ -40,7 +40,7 @@ FROM	SALE.order_item
 
 
 
---hatalý, çünkü select statement' ta kullanýlan subquery tek bir sütun içerebilir.
+--hatalï¿½, ï¿½ï¿½nkï¿½ select statement' ta kullanï¿½lan subquery tek bir sï¿½tun iï¿½erebilir.
 
 SELECT DISTINCT order_id, 
 		(
@@ -51,7 +51,7 @@ FROM	SALE.order_item
 
 
 
---hatalý, çünkü select statement' ta kullanýlan subquery tek bir deðer içerebilir.
+--hatalï¿½, ï¿½ï¿½nkï¿½ select statement' ta kullanï¿½lan subquery tek bir deï¿½er iï¿½erebilir.
 
 SELECT DISTINCT order_id, 
 		(
@@ -78,7 +78,8 @@ FROM	SALE.order_item
 
 
 --------------------------------/////////////////////
-
+--- QUESTION : Write a query that shows all employees in the store where Davis Thomas works.
+--- WHERE clause
 
 
 SELECT	store_id
@@ -102,7 +103,7 @@ WHERE	store_id = (
 
 -- Write a query that shows the employees for whom Charles Cussona is a first-degree manager. 
 --(To which employees are Charles Cussona a first-degree manager?)
--- Charles	Cussona 'ýn yöneticisi olduðu personelleri listeleyin.
+-- Charles	Cussona 'ï¿½n yï¿½neticisi olduï¿½u personelleri listeleyin.
 
 
 
@@ -125,8 +126,8 @@ WHERE	manager_id = (
 
 
 
--- Write a query that returns the customers located where ‘The BFLO Store' is located.
--- 'The BFLO Store' isimli maðazanýn bulunduðu þehirdeki müþterileri listeleyin.
+-- Write a query that returns the customers located where ï¿½The BFLO Store' is located.
+-- 'The BFLO Store' isimli maï¿½azanï¿½n bulunduï¿½u ï¿½ehirdeki mï¿½ï¿½terileri listeleyin.
 
 
 SELECT	city
@@ -155,8 +156,8 @@ WHERE	city IN (SELECT	city
 
 --Write a query that returns the list of products that are more expensive than the product named 'Pro-Series 49-Class Full HD Outdoor LED TV (Silver)'
 
--- 'Pro-Series 49-Class Full HD Outdoor LED TV (Silver)' isimli üründen pahalý olan ürünleri listeleyin.
--- Product id, product name, model_year, fiyat, marka adý ve kategori adý alanlarýna ihtiyaç duyulmaktadýr.
+-- 'Pro-Series 49-Class Full HD Outdoor LED TV (Silver)' isimli ï¿½rï¿½nden pahalï¿½ olan ï¿½rï¿½nleri listeleyin.
+-- Product id, product name, model_year, fiyat, marka adï¿½ ve kategori adï¿½ alanlarï¿½na ihtiyaï¿½ duyulmaktadï¿½r.
 
 
 SELECT	list_price
@@ -179,8 +180,8 @@ WHERE	list_price > (
 
 -- Write a query that returns the customer names, last names, and order dates. 
 -- The customers who are order before order date of Hassan Pope.
--- Hassan Pope isimli müþteriden daha önceki tarihlerde sipariþ veren müþterileri listeleyin.
--- Müþteri adý, soyadý ve sipariþ tarihi bilgilerini listeleyin.
+-- Hassan Pope isimli mï¿½ï¿½teriden daha ï¿½nceki tarihlerde sipariï¿½ veren mï¿½ï¿½terileri listeleyin.
+-- Mï¿½ï¿½teri adï¿½, soyadï¿½ ve sipariï¿½ tarihi bilgilerini listeleyin.
 
 
 SELECT *
@@ -243,8 +244,8 @@ ORDER BY order_date
 -- Write a query that returns customer first names, last names and order dates. 
 -- The customers who are order on the same dates as Laurel Goldammer.
 
--- Laurel Goldammer isimli müþterinin alýþveriþ yaptýðý tarihte/tarihlerde alýþveriþ yapan tüm müþterileri listeleyin.
--- Müþteri adý, soyadý ve sipariþ tarihi bilgilerini listeleyin.
+-- Laurel Goldammer isimli mï¿½ï¿½terinin alï¿½ï¿½veriï¿½ yaptï¿½ï¿½ï¿½ tarihte/tarihlerde alï¿½ï¿½veriï¿½ yapan tï¿½m mï¿½ï¿½terileri listeleyin.
+-- Mï¿½ï¿½teri adï¿½, soyadï¿½ ve sipariï¿½ tarihi bilgilerini listeleyin.
 
 
 
@@ -284,7 +285,7 @@ AND		order_date IN (
 
 
 --List the products that ordered in the last 10 orders in Buffalo city.
--- Buffalo þehrinde son 10 sipariþte sipariþ verilen ürünleri listeleyin.
+-- Buffalo ï¿½ehrinde son 10 sipariï¿½te sipariï¿½ verilen ï¿½rï¿½nleri listeleyin.
 
 
 
@@ -330,8 +331,8 @@ AND		A.order_id = C.order_id
 --Write a query that returns the product_names and list price that were made in 2021. 
 --(Exclude the categories that match Game, gps, or Home Theater )
 
--- Game, gps veya Home Theater haricindeki kategorilere ait ürünleri listeleyin.
---	Sadece 2021 model yýlýna ait ürünlerin adý ve fiyat bilgilerini listeleyin.
+-- Game, gps veya Home Theater haricindeki kategorilere ait ï¿½rï¿½nleri listeleyin.
+--	Sadece 2021 model yï¿½lï¿½na ait ï¿½rï¿½nlerin adï¿½ ve fiyat bilgilerini listeleyin.
 
 
 SELECT *
@@ -369,7 +370,7 @@ AND		category_id IN (
 --EXISTS / NOT EXISTS
 
 --Write a query that returns a list of States where 'Apple - Pre-Owned iPad 3 - 32GB - White' product is not ordered
--- 'Apple - Pre-Owned iPad 3 - 32GB - White' isimli ürünün sipariþ verilmediði state' leri döndüren bir sorgu yazýnýz. (müþterilerin state' leri üzerinden)
+-- 'Apple - Pre-Owned iPad 3 - 32GB - White' isimli ï¿½rï¿½nï¿½n sipariï¿½ verilmediï¿½i state' leri dï¿½ndï¿½ren bir sorgu yazï¿½nï¿½z. (mï¿½ï¿½terilerin state' leri ï¿½zerinden)
 
 
 SELECT	DISTINCT  D.state
@@ -417,8 +418,8 @@ WHERE	EXISTS (
 --Write a query that returns stock information of the products in Davi techno Retail store. 
 --The BFLO Store hasn't  got any stock of that products.
 
---Davi techno maðazasýndaki ürünlerin stok bilgilerini döndüren bir sorgu yazýn. 
---Bu ürünlerin The BFLO Store maðazasýnda stoðu bulunmuyor.
+--Davi techno maï¿½azasï¿½ndaki ï¿½rï¿½nlerin stok bilgilerini dï¿½ndï¿½ren bir sorgu yazï¿½n. 
+--Bu ï¿½rï¿½nlerin The BFLO Store maï¿½azasï¿½nda stoï¿½u bulunmuyor.
 
 
 SELECT	Y.*
@@ -465,8 +466,8 @@ AND		EXISTS (
 
 --List customers who have an order prior to the last order date of a customer named Jerald Berray and are residents of the city of Austin. 
 
--- Jerald Berray isimli müþterinin son sipariþinden önce sipariþ vermiþ 
---ve Austin þehrinde ikamet eden müþterileri listeleyin.
+-- Jerald Berray isimli mï¿½ï¿½terinin son sipariï¿½inden ï¿½nce sipariï¿½ vermiï¿½ 
+--ve Austin ï¿½ehrinde ikamet eden mï¿½ï¿½terileri listeleyin.
 
 
 WITH T1 AS
